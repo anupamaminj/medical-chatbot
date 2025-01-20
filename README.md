@@ -30,6 +30,5 @@ This project is an AI-powered medical chatbot designed to assist users with gene
 3. API keys for:
    - OpenAI
    - Pinecone
-4. Install the following dependencies:
-   ```bash
-   pip install openai langchain pinecone-client[grpc] sentence-transformers flask
+4. Install the dependies from requirement.txt file
+
