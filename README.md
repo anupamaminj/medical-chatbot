@@ -32,3 +32,11 @@ This project is an AI-powered medical chatbot designed to assist users with gene
    - Pinecone
 4. Install the dependies from requirement.txt file
 
+
+## 🧠 Architecture Overview
+1. User Query: A user submits a query via the chatbot interface.
+2. Embedding Generation: Hugging Face's transformer models encode the query into a vector representation.
+3. Preprocessed medical data is also encoded and stored in Pinecone for retrieval.
+4. Semantic Search: Pinecone searches for relevant documents or information based on the query embedding.
+5. Response Generation: OpenAI’s GPT models generate responses, leveraging context retrieved by LangChain and Pinecone.
+6. Output: A natural language response is returned to the user.
